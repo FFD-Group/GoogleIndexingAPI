@@ -60,13 +60,13 @@ JSON_KEY_FILE_2 = "woven-perigee-407109-f00e542421a4.json"
 JSON_KEY_FILE_3 = "ffd-gia-project-6dbe12cbd494.json"
 JSON_KEY_FILE_FFD = "ffd-refrigeration-website-gia-b1338c17baf4.json"
 MAX_REQUESTS_EXCLUSIVE = 401
-URLS_TO_INDEX_FILE = "ffd/FFD-REF-project_links_nonindexed_39870.csv"
+URLS_TO_INDEX_FILE = "247/Urls-to-index-16-Aug-2024_Catering.csv"
 FAILED_URLS_LOG = "failed_urls.log"
 CSV_SEPARATOR = ","
 
 # QUERY = ""
 
-sa = FFDServiceAccount(JSON_KEY_FILE_FFD)
+sa = FFDServiceAccount(JSON_KEY_FILE_1)
 dataframe = pd.read_csv(URLS_TO_INDEX_FILE, sep=CSV_SEPARATOR)
 
 # pprint(sa.check_status(QUERY))
