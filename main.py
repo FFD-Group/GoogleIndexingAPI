@@ -55,12 +55,9 @@ class FFDServiceAccount:
 
 
 # service_account_file.json is the private key that you created for your service account.
-JSON_KEY_FILE_1 = "ffd-catering-equipment-website-123114725930.json"
-JSON_KEY_FILE_2 = "woven-perigee-407109-f00e542421a4.json"
-JSON_KEY_FILE_3 = "ffd-gia-project-6dbe12cbd494.json"
-JSON_KEY_FILE_FFD = "ffd-refrigeration-website-gia-b1338c17baf4.json"
+JSON_KEY_FILE_1 = "ffd-api-keyfile.json"
 MAX_REQUESTS_EXCLUSIVE = 401
-URLS_TO_INDEX_FILE = "247/Urls-to-index-16-Aug-2024_Catering.csv"
+URLS_TO_INDEX_FILE = "Urls-to-index.csv"
 FAILED_URLS_LOG = "failed_urls.log"
 CSV_SEPARATOR = ","
 
